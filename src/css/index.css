@@ -1,0 +1,554 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Lobster&family=Poppins&family=Roboto+Mono:wght@100&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0px;
+    padding: 0px;
+    background-color: #ffffff;
+}
+
+.logo img{
+    width: 150px;
+}
+.logo:hover{
+    cursor: pointer;
+}
+
+nav{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+    background-color: white;
+	position: fixed;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+	width:100%;
+	z-index: 1;
+}
+nav ul{
+    list-style: none;
+    text-decoration: none;
+	display: flex;
+}
+nav ul li a{
+    font-family: 'Poppins';
+	height: 40px;
+	line-height: 40px;
+    margin-left: 10px;
+	padding: 0px 15px;
+	display: flex;
+	font-size: 1rem;
+	text-transform: uppercase;
+	font-weight: 500;
+	color: rgb(0, 0, 0);
+    letter-spacing: 2px;
+}
+nav ul li a:hover{
+	background-color: #fff131;
+    cursor: pointer;
+    border-radius: 3px;
+    color:#ffffff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 6px;
+}
+nav .menu-btn,.menu-icon{
+		display:none;
+}
+#main{
+    width:100%;
+    height:625px;
+    padding-bottom: 80px;
+    position: relative;
+    display: flex;
+    cursor: pointer;
+    background-image: url('../images/modcar1.png');
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 6px;
+}
+
+.header-heading{
+	width: auto;
+    margin-left: 60%;
+    margin-top: 10%;
+    padding: 30px;
+    border-radius: 10px;
+
+}
+
+.header-heading span{
+    font-family: 'Lobster', cursive;
+    font-size: 100px;
+    color: #eede00;
+    text-shadow: 2px 2px black;
+}
+.header-heading h1{
+    font-family: 'Fjalla One', sans-serif;
+	font-size: 70px;
+    letter-spacing: 20px;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px black;
+	color:white;
+}
+
+
+#products{
+    width:100%;
+    height:120vh;
+    box-sizing: border-box;
+    font-family: 'Fjalla One', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px ;
+    background-color: #ffffff;
+}
+#products h1{
+    font-family:'Fjalla One';
+    letter-spacing: 10px;
+    color: black;
+    font-size: 3rem;
+}
+#products p{
+    font-family:'Poppins';
+    letter-spacing: 1px;
+    color: black;
+    font-size: 1rem;
+    margin-top:-15px ;
+    margin-bottom:35px ;
+}
+.a-container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.a-box{
+    background-color: #ffffff;
+    width:  300px;
+    height: 435px;
+    padding: 10px;
+    margin: 0px 55px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    overflow: hidden;
+    position: relative;
+}
+.a-box:hover{
+    box-shadow: rgba(0, 0, 0, 0.4) 2px 10px 12px 10px;
+}
+.a-b-img{
+    width: 100%;
+    height: 60%;
+}
+.a-b-img img{
+    padding: 10px;
+    margin-top: 20px;
+    width:100%;
+    height: 100%;
+
+}
+
+.a-b-text{
+    width: 100%;
+    height: 40%;
+    background-color:#ffffff;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+.a-b-text h2{
+    color: black;
+    letter-spacing: 1px;
+}
+.productbox-button{
+    width:120px;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    font-family: 'Fjalla One', sans-serif;
+    background-color: #eede00;
+    border: 2px solid black;
+
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 5px;
+	color:#ffffff;
+}
+.productbox-button:hover{
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+    font-weight: bold;
+}
+#events{
+    margin-top:100px ;
+	width:100%;
+	height: 100vh;
+	box-sizing: border-box;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 50px 5% 0px 5%;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+
+.events-text{
+    width: 45%;
+    font-family:'Fjalla One';
+    color: #fff;
+    text-align: left;
+    
+}
+.events-text h2{
+	font-size: 3.5rem;
+    letter-spacing: 10px;
+    font-family:'Fjalla One';
+	color:rgb(0, 0, 0);
+    margin: 0px;
+    padding: 0px;
+}
+.events-text p{
+    letter-spacing: 1px;
+    font-family:'Fjalla One';
+    color: #252525;
+    font-size: 2rem;
+	
+}
+.events-text button{
+    margin-top: 20px;
+	width:140px;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    font-family: 'Fjalla One';
+    background-color: #eede00;
+    border: 2px solid black;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 5px;
+	color:#ffffff;
+}
+.events-text button:hover{
+    background-color: white;
+    transition: all ease 0.5s;
+    color: black;
+    border: 2px solid black;
+}
+.events-image{
+    width: 50%;
+}
+.events-image img{
+    width: 600px;
+}
+
+#services{
+    margin-top: 120px;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#services h1{
+        font-size: 3rem;
+        color:black;
+        font-weight: 500;
+        margin: 0px;
+        font-family: 'Fjalla One';
+        margin-bottom: 20px;
+}
+#services form{
+    width:600px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    
+}
+#services form input,
+#services form textarea{
+    width:100%;
+    height:40px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin:5px 0px;
+    padding: 10px;
+    background-color: rgb(0, 0, 0);
+    color: #eede00;
+    border-radius: 5px;
+}
+#services form textarea{
+    height: 150px;
+}
+.servicesBook{
+    height: 45px;
+    width: 100%;
+    font-size: large;
+    background-color: #eede00;
+    border: 2px solid black;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 5px;
+	color:#ffffff;
+}
+.servicesBook:hover{
+    background-color: white;
+    transition: all ease 0.5s;
+    color: black;
+    border: 2px solid black;
+}
+
+.footer{
+    background: linear-gradient(to bottom, #eede00 85%, #000000 15%);
+    height:100px;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+    display: flex;
+}
+.leftfooterside{
+color: white;
+padding: 10px 0px 10px 10px;
+margin-left: 3%;
+float: left;
+}
+.rightfooterside{
+    color: white;
+    padding: 10px 0px 10px 10px;
+    margin-left: 60%;
+    float: right;
+    overflow-wrap: break-word;
+}
+
+@media screen and (max-width:510px) {
+
+    .footer{ 
+        flex-direction: column;
+    }
+    .leftfooterside{
+    padding: 20px 20px 0px;
+    }
+    .rightfooterside{
+    padding: 10px 20px 15px;
+
+    }
+}
+@media(max-width:620px){
+    #services form{
+        width:90%;
+    }
+} 
+
+@media(max-width:1190px){
+	#main{
+		/* background-size: 1150px !important; */
+        display: none;
+	}
+	.header-heading{
+		left: 50%;
+		top: 50%;
+        transform: translate(-50%,-50%);
+        text-align: center;
+    }
+    .header-heading h2{
+        font-size: 1.5rem;
+    }
+    .header-heading h1{
+        font-size: 3rem;
+    }
+    .header-heading{
+        font-size: 1rem;
+    }
+    .pr-heading{
+		left: 50%;
+		top: 50%;
+        transform: translate(-50%,-50%);
+        text-align: center;
+    }
+    .pr-heading h2{
+        font-size: 1.5rem;
+    }
+    .pr-heading h1{
+        font-size: 3rem;
+    }
+    .pr-heading .details{
+        font-size: 1rem;
+    }
+	.events-image img{
+		height:400px;
+    }
+    #products{
+		height:auto;
+    }
+    .a-container{
+		flex-wrap: wrap;
+	}
+    .a-box{
+		flex-grow: 1;
+	}
+    .a-b-img img{
+		object-fit:contain;
+    }
+    
+    
+}
+
+@media(max-width:970px){
+	#main{
+		height: 650px;
+        background-image: none;
+	}
+	.header-heading{
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%,-50%);
+    }
+    .pr-heading{
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%,-50%);
+	}
+	.events-image{
+        display:none;
+    }
+    .pr-btn{
+        margin-left: 20%;
+        margin-top: 20px;
+    }
+	#events{
+		justify-content: center;
+        padding-top: 0px;
+        text-align: center;
+        
+        margin-top: 0px;
+	}
+	.events-text{
+        width: 90%;
+        text-align: center;
+        font-size: 4vh;
+
+	}
+	.events-text h1{
+		font-size:3rem;
+    }
+    .events-text p{
+        width: 100%;
+    }
+    .events-text button {
+        margin-left: 30%;
+    }
+    #products{
+        margin-bottom: 100px;
+    }
+}
+@media(max-width:600px){
+	.header-heading{
+		width:60%;
+    }
+    .pr-heading{
+		width:60%;
+    }
+}
+
+@media(max-width:1100px){
+        .menu-icon{
+            display:block;
+        }
+        nav{
+            justify-content: space-between;
+            height: 65px;
+            padding: 0px 30px;
+        }
+        .logo img{
+            width:120px;
+        }
+        .header-btns{
+            margin: 0;
+        }
+        .pr-btns{
+            margin: 0;
+        }
+        .menu{
+            display:none;
+            position:absolute;
+            top:65px;
+            left:0px;
+            background-color:#ffffff;
+            border-bottom:4px solid #FF1414;
+            width:100%;
+            padding:0px;
+            margin:0px;
+        }
+        .menu li{
+            width:100%;
+        }
+        nav .menu li a{
+            width:100%;
+            height:40px;
+            justify-content: center;
+            align-items: center;
+            margin:0px;
+            padding: 25px;
+            border:1px solid rgba(38,38,38,0.03);
+        }
+        nav .menu-icon{
+            cursor:pointer;
+            float:right;
+            padding:28px 20px;
+            position:relative;
+            user-select: none;
+        }
+        nav .menu-icon .nav-icon{
+            background-color:black;
+            display:block;
+            height:2px;
+            position:relative;
+            width:24px;
+        }
+        nav .menu-icon .nav-icon:before,
+        nav .menu-icon .nav-icon:after{
+            background:rgb(255, 255, 255);
+            content:'';
+            display:block;
+            height:100%;
+            position:absolute;
+            transition:all ease-out 0.2s;
+            width:100%;
+        }
+        nav .menu-icon .nav-icon:before{
+            top:6px;
+            background-color: black;
+        }
+        nav .menu-icon .nav-icon:after{
+            top:-6px;
+            background-color: black;
+        }
+        nav .menu-btn:checked ~ .menu-icon .nav-icon{
+            background:transparent;
+        }
+        nav .menu-btn:checked ~ .menu-icon .nav-icon:before{
+            transform: rotate(-45deg);
+            top:0;
+            background-color: black;
+        }
+        nav .menu-btn:checked ~ .menu-icon .nav-icon:after{
+            transform: rotate(45deg);
+            top:0;
+            background-color: black;
+        }
+        nav .menu-btn{
+            display:none;
+        }
+        nav .menu-btn:checked ~ .menu{
+            display:block;
+        }}
+        @media(max-width:400px){
+            .a-box{
+                width: 100%;
+                height:400px;
+            }
+        }
