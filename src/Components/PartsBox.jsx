@@ -2,17 +2,15 @@ import React from 'react';
 
 function PartsBox(props) {
   return (
-    <div className='a-box'>
-        <div className='a-b-img'>
+    <div className='product_box'>
+        <div className='product_img'>
             <img src={props.image} alt='' /> 
         </div>
-        
-        <div className='a-b-text'>
+        <div className='product_text'>
             <h2> {props.title} </h2>
-            <button className='productbox-button'>Buy Now</button>
+            <button className='product_button'>Buy</button>
         </div>
     </div>
   )
 }
-
 export default PartsBox

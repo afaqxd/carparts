@@ -5,10 +5,11 @@ function Services() {
     <div id='services'>
         <h1>BOOK YOUR CAR SERVICE RESERVATION</h1>
         <form>
-            <input type='text' placeholder='Full Name'/>
-            <input type='email' placeholder='Your Email here'/>
-            <textarea type='text' placeholder='Enter full details of your car'/>
-            <button className='servicesBook'>BOOK</button>
+            <input type='text' placeholder='Your name here'/>
+            <input type='text' placeholder='Car and Model'/>
+            <input type='phone' placeholder='Phone Number'/>
+            <textarea type='text' placeholder='Details'/>
+            <button className='services_button'>BOOK</button>
         </form>
     </div>
     )

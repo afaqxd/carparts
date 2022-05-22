@@ -7,12 +7,12 @@ import pimage3 from '../images/exhaust.png';
 function Parts() {
   return (
     <div id='products'>
-        <div className='a-container'> 
+        <div className='product_list'> 
             <PartsBox image={pimage1} title="Bumper" />
             <PartsBox image={pimage2} title="Steering Wheel" />            
             <PartsBox image={pimage3} title="Exhaust Pipe" />            
         </div>
-   </div>
+    </div>
   )
 }
 

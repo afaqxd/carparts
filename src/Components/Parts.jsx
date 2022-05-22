@@ -9,7 +9,7 @@ function Parts() {
     <div id='products'>
         <h1>PIMP YOUR CAR</h1>
         <p>These parts come with 1 year warranty</p>
-        <div className='a-container'> 
+        <div className='product_list'> 
             <PartsBox image={pimage1} title="Engine" />
             <PartsBox image={pimage2} title="Alloy Rims" />            
             <PartsBox image={pimage3} title="Headlights" />            
