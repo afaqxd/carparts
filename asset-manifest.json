@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/afaqxd/reactrouter/static/css/main.50f939de.css",
+    "main.js": "/afaqxd/reactrouter/static/js/main.fcc89958.js",
+    "static/js/787.dacb14d4.chunk.js": "/afaqxd/reactrouter/static/js/787.dacb14d4.chunk.js",
+    "static/media/steeringwheel.png": "/afaqxd/reactrouter/static/media/steeringwheel.317b53468ae01f4bff64.png",
+    "static/media/exhaust.png": "/afaqxd/reactrouter/static/media/exhaust.38fe35cf36c2856059e0.png",
+    "static/media/modcar1.png": "/afaqxd/reactrouter/static/media/modcar1.9297410a6cef906e8582.png",
+    "static/media/autoshow.jpg": "/afaqxd/reactrouter/static/media/autoshow.653ba917aa7cc314fb79.jpg",
+    "static/media/car.jpg": "/afaqxd/reactrouter/static/media/car.874e484a3d3cb9c2c5a9.jpg",
+    "static/media/bumper.png": "/afaqxd/reactrouter/static/media/bumper.0f7ef38de0f61540ecca.png",
+    "static/media/engine.png": "/afaqxd/reactrouter/static/media/engine.e5d0f943cdf252ad4a48.png",
+    "static/media/autopartslogo.png": "/afaqxd/reactrouter/static/media/autopartslogo.49496ced990289a8a9b9.png",
+    "static/media/headlights.png": "/afaqxd/reactrouter/static/media/headlights.ae0de704be391d51037f.png",
+    "static/media/alloyrims.png": "/afaqxd/reactrouter/static/media/alloyrims.47701e8165d490cfffc6.png",
+    "index.html": "/afaqxd/reactrouter/index.html",
+    "main.50f939de.css.map": "/afaqxd/reactrouter/static/css/main.50f939de.css.map",
+    "main.fcc89958.js.map": "/afaqxd/reactrouter/static/js/main.fcc89958.js.map",
+    "787.dacb14d4.chunk.js.map": "/afaqxd/reactrouter/static/js/787.dacb14d4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.50f939de.css",
+    "static/js/main.fcc89958.js"
+  ]
+}
